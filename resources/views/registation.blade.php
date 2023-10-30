@@ -42,7 +42,7 @@
                             </div>
                             <div class="card-body pt-0"> 
                                 <div>
-                                    <a href="index.html">
+                                    <a href="/">
                                         <div class="avatar-md profile-user-wid mb-4">
                                             <span class="avatar-title rounded-circle bg-light">
                                                 <img src="assets/images/logo.svg" alt="" class="rounded-circle" height="34">
@@ -51,11 +51,11 @@
                                     </a>
                                 </div>
                                 <div class="p-2">
-                                    <form class="needs-validation" novalidate action="index.html">
-            
+                                    <form class="needs-validation" novalidate action="/reg" method="post">
+                                      @csrf
                                         <div class="mb-3">
                                             <label for="useremail" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="useremail" placeholder="Enter email" required>  
+                                            <input type="email" class="form-control"name="email" id="useremail" placeholder="Enter email" required>  
                                             <div class="invalid-feedback">
                                                 Please Enter Email
                                             </div>      
@@ -63,7 +63,7 @@
                 
                                         <div class="mb-3">
                                             <label for="username" class="form-label">Username</label>
-                                            <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+                                            <input type="text" class="form-control"name="name" id="username" placeholder="Enter username" required>
                                             <div class="invalid-feedback">
                                                 Please Enter Username
                                             </div>  
@@ -71,14 +71,14 @@
                 
                                         <div class="mb-3">
                                             <label for="userpassword" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="userpassword" placeholder="Enter password" required>
+                                            <input type="password" class="form-control" name="password"id="userpassword" placeholder="Enter password" required>
                                             <div class="invalid-feedback">
                                                 Please Enter Password
                                             </div>       
                                         </div>
                     
                                         <div class="mt-4 d-grid">
-                                            <button class="btn btn-primary waves-effect waves-light" type="submit">Register</button>
+                                        <button class="btn btn-primary waves-effect waves-light" type="submit">Register</button>
                                         </div>
 
                                         <div class="mt-4 text-center">
@@ -114,7 +114,7 @@
                         <div class="mt-5 text-center">
                             
                             <div>
-                                <p>Already have an account ? <a href="/" class="fw-medium text-primary"> Login</a> </p>
+                                <p>Already have an account ? <a href="das" class="fw-medium text-primary"> Login</a> </p>
                                 <p>© <script>document.write(new Date().getFullYear())</script> Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                             </div>
                         </div>

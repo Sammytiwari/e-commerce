@@ -47,7 +47,7 @@
                                         </div>
                                     </a>
 
-                                    <a href="index.html" class="auth-logo-dark">
+                                    <a href="/" class="auth-logo-dark">
                                         <div class="avatar-md profile-user-wid mb-4">
                                             <span class="avatar-title rounded-circle bg-light">
                                                 <img src="assets/images/logo.svg" alt="" class="rounded-circle" height="34">
@@ -56,7 +56,7 @@
                                     </a>
                                 </div>
                                 <div class="p-2">
-                                    <form class="form-horizontal" action="index.html">
+                                    <form class="form-horizontal">
         
                                         <div class="mb-3">
                                             <label for="username" class="form-label">Username</label>
@@ -79,7 +79,7 @@
                                         </div>
                                         
                                         <div class="mt-3 d-grid">
-                                            <button class="btn btn-primary waves-effect waves-light" type="submit">Log In</button>
+                                         <a herf="das" <button class="btn btn-primary waves-effect waves-light" type="submit">Log In</button></a>
                                         </div>
             
                                         <div class="mt-4 text-center">
@@ -105,7 +105,7 @@
                                         </div>
 
                                         <div class="mt-4 text-center">
-                                            <a href="sam1" class="text-muted"><i class="mdi mdi-lock me-1"></i> Forgot your password?</a>
+                                            <a href="rec" class="text-muted"><i class="mdi mdi-lock me-1"></i> Forgot your password?</a>
                                         </div>
                                     </form>
                                 </div>
@@ -115,7 +115,7 @@
                         <div class="mt-5 text-center">
                             
                             <div>
-                                <p>Don't have an account ? <a href="sam" class="fw-medium text-primary"> Signup now </a> </p>
+                                <p>Don't have an account ? <a href="reg" class="fw-medium text-primary"> Signup now </a> </p>
                                 <p>© <script>document.write(new Date().getFullYear())</script> Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                             </div>
                         </div>
